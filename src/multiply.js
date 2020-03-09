@@ -1,5 +1,5 @@
 /* Vermenigvuldigen van twee waarden*/
-function multiply(a, b) {
+export function multiply(a, b) {
     "use strict";
     return a * b;
 }

@@ -1,5 +1,11 @@
 /* Delen van twee waarden*/
-function calculate(a, b, operator) {
+import{ add } from "./add.js";
+import{ divide } from "./divide.js";
+import{ multiply } from "./multiply.js";
+import{ substract } from "./substract.js";
+
+
+export function calculate(a, b, operator) {
     "use strict";
 	var c = 0;
     switch (operator) {
