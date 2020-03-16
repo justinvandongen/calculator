@@ -1,4 +1,6 @@
 import {calculate} from "./calculate.js";
+import{add} from "./add.js";
+
 
 function actie() {
 	const uitkomst = calculate(document.getElementById('a').value, document.getElementById('b').value, document.getElementById('operator').value);
